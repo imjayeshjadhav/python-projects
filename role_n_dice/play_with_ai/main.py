@@ -10,7 +10,7 @@ def roll():
 players = 2 # User and AI
 
 # Game ends when any player reaches this score, a winning condition
-max_score = 30
+max_score = 50
 
 player_scores = [0 for _ in range(players)]
 # List to store scores of both players, Index 0= User, Index 1 = AI
@@ -39,8 +39,8 @@ while max(player_scores) < max_score:
                     break
             else :
                 # AIs's logic for whether to roll or not
-                if current_score < 10:
-                    # Simple strategy: if AI has less than 10 in current turn, it will roll again
+                if current_score < 15:
+                    # Simple strategy: if AI has less than 15 in current turn, it will roll again
                     should_roll ="y"
                     print("AI Decides to roll.")
                     time.sleep(1)
