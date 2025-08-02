@@ -27,7 +27,7 @@ Play with 2 to 4 **human players**:
 - Scores are tracked individually.
 - The game ends when **any player** reaches 50 points.
 
-📄 File: `multiplayer/main.py`
+📄 File: `multiplayer.py`
 
 
 
@@ -37,7 +37,7 @@ Challenge a **smart AI** opponent:
 - The **AI strategy**: It keeps rolling until its **turn score is 15 or more**, then it holds.
 - Win or watch the AI outsmart you!
 
-📄 File: `play_with_ai/main.py`
+📄 File: `play_with_ai.py`
 
 
 
